@@ -1,0 +1,24 @@
+%svg-common {
+	background: url(svg/sprite.view.svg) no-repeat;
+}
+
+.svg-background {
+	@extend %svg-common;
+	background-position: 0 0;
+}
+
+.svg-background-dims {
+	width: 2020px;
+	height: 523.5px;
+}
+
+.svg-background_2 {
+	@extend %svg-common;
+	background-position: 0 99.90458015267176%;
+}
+
+.svg-background_2-dims {
+	width: 1173.5px;
+	height: 490px;
+}
+

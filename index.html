@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <!-- Use the .htaccess and remove these lines to avoid edge case issues.
+             More info: h5bp.com/b/378 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <title>sway - framework</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="humans.txt">
+
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+
+    <!-- Facebook Metadata /-->
+    <meta property="fb:page_id" content="" />
+    <meta property="og:image" content="" />
+    <meta property="og:description" content=""/>
+    <meta property="og:title" content=""/>
+
+    <!-- Google+ Metadata /-->
+    <meta itemprop="name" content="">
+    <meta itemprop="description" content="">
+    <meta itemprop="image" content="">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+    <!-- We highly recommend you use SASS and write your custom styles in sass/_custom.scss.
+         However, there is a blank style.css in the css directory should you prefer -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
+    <!--<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.17.0/TweenMax.min.js"></script> -->
+    <script src="js/libs/modernizr-2.8.3.min.js"></script>
+</head>
+<body>
+  <div class="container-main" id="main-content">
+    <header class="main-header" id="menu">
+        <div class="grid">
+            <a class="site-logo" href="/">
+                <b class="srt">ABK</b>
+            </a>
+            <span id="toggle" class="icn--nav-toggle is-displayed-mobile">
+                <b class="srt">Toggle</b>
+            </span>
+            <nav class="navbar">
+                <ul class="nav is-collapsed-mobile">
+                    <li class="nav__item--current"><a href="#">link1</a></li>
+                    <li class="nav__item"><a href="#">link2</a></li>
+                    <li class="nav__item"><a href="#">link3</a></li>
+                    <li class="nav__item"><a href="#">link4</a></li>
+                    <li class="nav__item"><a href="#">link5</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="content-main">
+        <section class="intro  col-50">
+            <div class="grid">
+                <div class="grid__col--6 panel">
+                    <h1 class="headline-primary--grouped">Take a look at this amazing headline</h1>
+                    <h2 class="headline-secondary--grouped">Don't forget about the subtitle</h2>
+                </div>
+                <div class="grid__col--6 panel">
+                    <blockquote>You know what really gets me going? A really nice set of block quotes.  That's right, block quotes that say, "Hey, I'm an article you want to read and nurture."</blockquote>
+                </div>
+            </div>
+        </section>
+        <section id="youtube" class="youtube col-50">
+            <div class="grid">
+                <div class="grid__col--6">
+                    <h2 class="headline-youtube--grouped">Youtube inspires me to create new stuff</h2>
+                     <p>lorum ipmsum sdfsd sdfmsdfsdmsdf sdfmsdfsdfsmsdf</p>
+                </div>
+                <div class="grid__col--6">
+                    <div class="video-strip">
+
+                    </div>
+                    <div class="flex-video">
+                        <iframe src="http://player.vimeo.com/video/60122989" width="400" height="225" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="mentor" class="mentor col-50">
+            <div class="grid">
+                <div class="grid__col--6">
+                    <ul class="faces">
+                        <li class="face"><span class="bubble">
+                           If you reached this page, means you've hit this SSL error when trying to pull updates from RubyGems:
+                        </span></li>
+                        <li class="face"><span class="bubble">
+                            If you reached this page, means you've hit this SSL error when trying to pull updates from RubyGems:
+                        </span></li>
+                        <li class="face"><span class="bubble">
+                            If you reached this page, means you've hit this SSL error when trying to pull updates from RubyGems:
+                        </span></li>
+                        <li class="face"><span class="bubble">
+                             If you reached this page, means you've hit this SSL error when trying to pull updates from RubyGems:
+                        </span></li>
+                        <li class="face"><span class="bubble">
+                            If you reached this page, means you've hit this SSL error when trying to pull updates from RubyGems:
+                        </span></li>
+                    </ul>
+                </div>
+                <div class="grid__col--6">
+                  <h2 class="headline-primary panel">Want to work with me?</h2>
+                    <a href="" class="btn--default">call me maybe?</a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer class="main-footer">
+        <div class="grid panel--padded--centered">
+            <nav class="navbar-footer">
+                <ul class="nav">
+                    <li class="nav__item"><a href="#">link</a></li>
+                    <li class="nav__item"><a href="#">link</a></li>
+                    <li class="nav__item"><a href="#">link</a></li>
+                    <li class="nav__item"><a href="#">link</a></li>
+                    <li class="nav__item"><a href="#">link</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+  </div>
+  <aside id="main-menu" class="sidebar-main__left">
+      <div class="grid panel">
+          <ul class="mobile-menu grid__col--12">
+              <li class="mobile-menu__item"><a href="">link<span class="label-email"></span></a></li>
+              <li class="mobile-menu__item"><a href="">link<span class="label-email"></span></a></li>
+              <li class="mobile-menu__item"><a href="">link<span class="label-email"></span></a></li>
+              <li class="mobile-menu__item"><a href="">link<span class="label-email"></span></a></li>
+              <li class="mobile-menu__item"><a href="">link<span class="label-email"></span></a></li>          
+          </ul>
+      </div>
+  </aside>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.11.2.min.js"><\/script>')</script>
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+  <script src="js/dev/classie.js"></script>
+  <script src="js/dev/main.js"></script>
+  <script src="js/dev/sections.js"></script>
+
+</body>
+</html>
